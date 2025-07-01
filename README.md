@@ -23,12 +23,12 @@ Economic Policy Uncertainty (EPU) indices quantify uncertainty in economic polic
 4. Evaluate model performance using metrics like MAPE and RMSE.  
 5. Generate out-of-sample forecasts for future periods.  
 
-## Dataset
+# Dataset
 
 - **Source:** The Spain EPU index (monthly) is loaded directly within the notebook, either via an API or a CSV file.  
 - **Coverage:** Typically spans from the earliest available date (e.g., 1997-01) through the latest published month.  
 
-## Requirements
+# Requirements
 
 - Python 3.8+  
 - Jupyter Notebook  
@@ -42,7 +42,7 @@ Economic Policy Uncertainty (EPU) indices quantify uncertainty in economic polic
 
 *(You can install them via `pip install -r requirements.txt`.)*
 
-## Installation
+# Installation
 
 1. Clone the repository:
    ```bash
@@ -57,11 +57,11 @@ Economic Policy Uncertainty (EPU) indices quantify uncertainty in economic polic
   .\venv\Scripts\activate      # Windows
 
 
-##Install dependencies:
+#Install dependencies:
 
     pip install -r requirements.txt
 
-##Usage
+#Usage
 
 Launch Jupyter and open the main notebook:
 
@@ -78,9 +78,9 @@ After running the notebook, you will see:
 
     Forecast plots for the next 12 (or chosen) months of the Spain EPU index.
 
-##Contributing
+#Contributing
 
-##Contributions are welcome! Please:
+#Contributions are welcome! Please:
 
     Fork the repository.
 
@@ -92,7 +92,7 @@ After running the notebook, you will see:
 
     Open a pull request.
 
-##License
+#License
 
 This project is licensed under the MIT License.
 
