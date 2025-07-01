@@ -57,11 +57,11 @@ Economic Policy Uncertainty (EPU) indices quantify uncertainty in economic polic
   .\venv\Scripts\activate      # Windows
 
 
-#Install dependencies:
+## Install dependencies:
 
     pip install -r requirements.txt
 
-#Usage
+## Usage
 
 Launch Jupyter and open the main notebook:
 
@@ -78,9 +78,9 @@ After running the notebook, you will see:
 
     Forecast plots for the next 12 (or chosen) months of the Spain EPU index.
 
-#Contributing
+# Contributing
 
-#Contributions are welcome! Please:
+Contributions are welcome! Please:
 
     Fork the repository.
 
@@ -92,7 +92,8 @@ After running the notebook, you will see:
 
     Open a pull request.
 
-#License
+
+# License
 
 This project is licensed under the MIT License.
 
