@@ -61,7 +61,7 @@ Economic Policy Uncertainty (EPU) indices quantify uncertainty in economic polic
 
     pip install -r requirements.txt
 
-## Usage
+# Usage
 
 Launch Jupyter and open the main notebook:
 
