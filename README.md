@@ -1,8 +1,7 @@
 # Spain EPU Time Series Forecasting
 
 This project implements time series forecasting for Spain’s Economic Policy Uncertainty (EPU) index. All analysis and modeling steps are contained in the Jupyter Notebook:  
-[main.ipynb](https://github.com/tphathuin1802/spain-epu-time-series-forecasting/blob/main/main.ipynb) :contentReference[oaicite:0]{index=0}
-
+[main.ipynb](https://github.com/tphathuin1802/spain-epu-time-series-forecasting/blob/main/main.ipynb) 
 ## Table of Contents
 
 - [Introduction](#introduction)  
@@ -49,3 +48,51 @@ Economic Policy Uncertainty (EPU) indices quantify uncertainty in economic polic
    ```bash
    git clone https://github.com/tphathuin1802/spain-epu-time-series-forecasting.git
    cd spain-epu-time-series-forecasting
+
+
+(Optional) Create and activate a virtual environment:
+
+   python -m venv venv
+  s  ource venv/bin/activate     # Linux/macOS
+  .\venv\Scripts\activate      # Windows
+
+
+##Install dependencies:
+
+    pip install -r requirements.txt
+
+##Usage
+
+Launch Jupyter and open the main notebook:
+
+jupyter notebook main.ipynb
+
+Follow the step-by-step cells to reproduce the analysis, fit models, and view forecast plots.
+Results
+
+After running the notebook, you will see:
+
+    Time series plots showing trends and seasonal patterns.
+
+    A model comparison table with performance metrics.
+
+    Forecast plots for the next 12 (or chosen) months of the Spain EPU index.
+
+##Contributing
+
+##Contributions are welcome! Please:
+
+    Fork the repository.
+
+    Create a feature branch (git checkout -b feature-name).
+
+    Commit your changes (git commit -m "Add feature").
+
+    Push to the branch (git push origin feature-name).
+
+    Open a pull request.
+
+##License
+
+This project is licensed under the MIT License.
+
